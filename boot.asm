@@ -6,9 +6,28 @@ jmp main        ;os main
 
 MOV AL, 'h'
 CALL Printchar
-
-MOV AL, 'h'
+MOV AL, 'e'
 CALL Printchar
+MOV AL, 'l'
+CALL Printchar
+MOV AL, 'l'
+CALL Printchar
+MOV AL, 'o'
+CALL Printchar
+
+MOV AL, ' '
+CALL Printchar
+MOV AL, 'w'
+CALL Printchar
+MOV AL, 'o'
+CALL Printchar
+MOV AL, 'r'
+CALL Printchar
+MOV AL, 'l'
+CALL Printchar
+MOV AL, 'd'
+CALL Printchar
+
 
 JMP $ 		;Infinite loop
 
